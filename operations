@@ -1,0 +1,175 @@
+
+/*fun main()
+{
+    var a = 10
+    var b = 5
+    val isTrue = true
+    val isFalse = false
+    val add = a+b
+    val mul = a*b
+    val div = a/b
+    val sub = a-b
+    val mod = a%b
+    println("addiction of $a and $b is $add")
+    println("multiplication of $a and $b is $mul")
+    println("division of $a and $b is $div")
+    println("subtraction of $a and $b is $sub")
+    println("modulus of $a and $b is $mod")
+}*/
+
+
+
+/*fun main()
+{
+    val a = 10 
+    val b = 20 
+    val isTrue = true
+    val isFalse = false
+    val greater_than = a>b
+    val less_than = a<b
+    val equals_to = a!=b
+    println("Is $a is greater than $b:${greater_than}")
+    println("Is $a is less than $b:${less_than}")
+    println("Is $a is equals to $b:${equals_to}")
+}*/
+//assaignment operators
+/*fun main()
+ {
+    var a = 10
+    var b = 5
+
+    // Basic assignment
+    a = b  // a becomes 5
+
+    // Addition assignment
+    a += b // equivalent to a = a + b, so a becomes 10
+
+    // Subtraction assignment
+    a -= b // equivalent to a = a - b, so a becomes 5
+
+    // Multiplication assignment
+    a *= b // equivalent to a = a * b, so a becomes 25
+
+    // Division assignment
+    a /= b // equivalent to a = a / b, so a becomes 5
+
+    // Modulus assignment
+    a %= b // equivalent to a = a % b, so a becomes 0
+
+    println("Final value of a: $a")
+}*/
+
+/*
+fun main() {
+    var a = 5
+
+    // Unary plus
+    val unaryPlus = +a  // The result is 5 (same as the value of 'a')
+
+    // Unary minus
+    val unaryMinus = -a // The result is -5 (negates the value of 'a')
+
+    // Increment
+    a++  // a becomes 6 (increments the value by 1)
+
+    // Decrement
+    a--  // a becomes 5 again (decrements the value by 1)
+
+    // Not
+    val isTrue = true
+    val isFalse = !isTrue  // The result is false (negates the boolean value)
+
+    println("Unary plus: $unaryPlus")
+    println("Unary minus: $unaryMinus")
+    println("After increment: $a")
+    a--
+    println("After decrement: $a")
+    println("Not operator: $isFalse")
+}*/
+
+
+/*fun main() {
+    val temperature = 10
+    if (temperature > 25) {
+        println("it's a warm day...")
+    }
+    else
+    println("it's is a cold day....")
+}*/
+
+/*fun main()
+{
+    val a = 95
+    if(a>=90){
+        println("wow you are a grade student..")
+    }
+        else
+        println("you are b grade student...")
+    
+}*/
+
+
+/*fun main()
+{
+    val num1 = 10
+    val num2 = 20
+    val operator = "%"
+    if(operator == "+"){
+        println("Result : ${num1+num2}")
+    }
+    else if(operator == "-"){
+        println("Result : ${num1-num2}")
+    }
+    else if(operator == "*"){
+         println("Result : ${num1*num2}")
+    }
+    else if(operator == "/"){
+        println("Result : ${num1/num2}")
+    }
+    else if(operator == "%"){
+        println("Result : ${num1%num2}")
+    }
+}*/
+
+/*fun main()
+{
+    val age = 25
+    if(age == 40){
+        println("you are an overaged")
+    }
+    else if(age >= 20){
+        println("you are eligible for the adult")
+    }
+    else if(age <=20){
+        println("you are children")
+    }
+    
+}*/
+
+/*fun main(){
+    val day = 5
+    val dayname = when (day){
+        1 -> "Monday"
+        2 -> "Tuesday"
+        3 -> "Wednesday"
+        4 -> "Thursday"
+        5 -> "Friday"
+        6 -> "Saturday"
+        7 -> "Sunday"
+        else -> "invalid Input"
+    }
+    println(dayname)
+}*/
+
+
+fun main()
+{
+    val number = 20
+    when{
+        number % 2 == 0 -> println("$number is even")
+        number % 2 != 0 -> println("$number is odd")
+        else -> println("Invalid input")
+    }
+    
+}
+
